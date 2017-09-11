@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FCF431ED1F6638A900E4CA7C /* FQPhotoAlbum.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FCF431EC1F6638A900E4CA7C /* FQPhotoAlbum.podspec */; };
+		FCF431F11F663BA100E4CA7C /* FQPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF431F01F663BA100E4CA7C /* FQPhotoAlbum.m */; };
 		FCF4F7BB1F56952D00E823F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7BA1F56952D00E823F3 /* main.m */; };
 		FCF4F7BE1F56952D00E823F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7BD1F56952D00E823F3 /* AppDelegate.m */; };
 		FCF4F7C11F56952D00E823F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7C01F56952D00E823F3 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		FCF4F7C91F56952D00E823F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF4F7C71F56952D00E823F3 /* LaunchScreen.storyboard */; };
 		FCF4F7D41F56952D00E823F3 /* FQPhotoAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7D31F56952D00E823F3 /* FQPhotoAlbumTests.m */; };
 		FCF4F7DF1F56952D00E823F3 /* FQPhotoAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7DE1F56952D00E823F3 /* FQPhotoAlbumUITests.m */; };
-		FCF4F7F01F5697AE00E823F3 /* FQPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7EF1F5697AE00E823F3 /* FQPhotoAlbum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		FCF431EC1F6638A900E4CA7C /* FQPhotoAlbum.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FQPhotoAlbum.podspec; sourceTree = "<group>"; };
+		FCF431EF1F663BA100E4CA7C /* FQPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQPhotoAlbum.h; sourceTree = "<group>"; };
+		FCF431F01F663BA100E4CA7C /* FQPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQPhotoAlbum.m; sourceTree = "<group>"; };
 		FCF4F7B61F56952D00E823F3 /* FQPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF4F7BA1F56952D00E823F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCF4F7BC1F56952D00E823F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		FCF4F7DA1F56952D00E823F3 /* FQPhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQPhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF4F7DE1F56952D00E823F3 /* FQPhotoAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQPhotoAlbumUITests.m; sourceTree = "<group>"; };
 		FCF4F7E01F56952D00E823F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCF4F7EE1F5697AE00E823F3 /* FQPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQPhotoAlbum.h; sourceTree = "<group>"; };
-		FCF4F7EF1F5697AE00E823F3 /* FQPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQPhotoAlbum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCF431EE1F663BA100E4CA7C /* FQPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				FCF431EF1F663BA100E4CA7C /* FQPhotoAlbum.h */,
+				FCF431F01F663BA100E4CA7C /* FQPhotoAlbum.m */,
+			);
+			path = FQPhotoAlbum;
+			sourceTree = "<group>";
+		};
 		FCF4F7AD1F56952D00E823F3 = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +116,7 @@
 		FCF4F7B81F56952D00E823F3 /* FQPhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
-				FCF4F7ED1F56978700E823F3 /* FQPhotoAlbum */,
+				FCF431EE1F663BA100E4CA7C /* FQPhotoAlbum */,
 				FCF4F7BC1F56952D00E823F3 /* AppDelegate.h */,
 				FCF4F7BD1F56952D00E823F3 /* AppDelegate.m */,
 				FCF4F7BF1F56952D00E823F3 /* ViewController.h */,
@@ -145,15 +154,6 @@
 				FCF4F7E01F56952D00E823F3 /* Info.plist */,
 			);
 			path = FQPhotoAlbumUITests;
-			sourceTree = "<group>";
-		};
-		FCF4F7ED1F56978700E823F3 /* FQPhotoAlbum */ = {
-			isa = PBXGroup;
-			children = (
-				FCF4F7EE1F5697AE00E823F3 /* FQPhotoAlbum.h */,
-				FCF4F7EF1F5697AE00E823F3 /* FQPhotoAlbum.m */,
-			);
-			name = FQPhotoAlbum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +293,7 @@
 				FCF4F7C11F56952D00E823F3 /* ViewController.m in Sources */,
 				FCF4F7BE1F56952D00E823F3 /* AppDelegate.m in Sources */,
 				FCF4F7BB1F56952D00E823F3 /* main.m in Sources */,
-				FCF4F7F01F5697AE00E823F3 /* FQPhotoAlbum.m in Sources */,
+				FCF431F11F663BA100E4CA7C /* FQPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

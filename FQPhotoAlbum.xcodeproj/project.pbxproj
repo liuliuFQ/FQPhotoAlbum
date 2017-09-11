@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCF431ED1F6638A900E4CA7C /* FQPhotoAlbum.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FCF431EC1F6638A900E4CA7C /* FQPhotoAlbum.podspec */; };
 		FCF4F7BB1F56952D00E823F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7BA1F56952D00E823F3 /* main.m */; };
 		FCF4F7BE1F56952D00E823F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7BD1F56952D00E823F3 /* AppDelegate.m */; };
 		FCF4F7C11F56952D00E823F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4F7C01F56952D00E823F3 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCF431EC1F6638A900E4CA7C /* FQPhotoAlbum.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FQPhotoAlbum.podspec; sourceTree = "<group>"; };
 		FCF4F7B61F56952D00E823F3 /* FQPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF4F7BA1F56952D00E823F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCF4F7BC1F56952D00E823F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		FCF4F7AD1F56952D00E823F3 = {
 			isa = PBXGroup;
 			children = (
+				FCF431EC1F6638A900E4CA7C /* FQPhotoAlbum.podspec */,
 				FCF4F7B81F56952D00E823F3 /* FQPhotoAlbum */,
 				FCF4F7D21F56952D00E823F3 /* FQPhotoAlbumTests */,
 				FCF4F7DD1F56952D00E823F3 /* FQPhotoAlbumUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				FCF4F7C91F56952D00E823F3 /* LaunchScreen.storyboard in Resources */,
 				FCF4F7C61F56952D00E823F3 /* Assets.xcassets in Resources */,
+				FCF431ED1F6638A900E4CA7C /* FQPhotoAlbum.podspec in Resources */,
 				FCF4F7C41F56952D00E823F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +529,7 @@
 				FCF4F7E51F56952D00E823F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCF4F7E61F56952D00E823F3 /* Build configuration list for PBXNativeTarget "FQPhotoAlbumTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +538,7 @@
 				FCF4F7E81F56952D00E823F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCF4F7E91F56952D00E823F3 /* Build configuration list for PBXNativeTarget "FQPhotoAlbumUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +547,7 @@
 				FCF4F7EB1F56952D00E823F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

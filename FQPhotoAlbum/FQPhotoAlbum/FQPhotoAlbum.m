@@ -262,7 +262,7 @@
 }
 -(void)dealloc{
     
-    [self removeObserver:self forKeyPath:@"isGranted" context:nil];
+    [self.kvoModel removeObserver:self forKeyPath:@"isGranted" context:nil];
 }
 
 @end
